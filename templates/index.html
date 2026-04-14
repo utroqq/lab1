@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Капча</title>
+</head>
+<body>
+
+<h2>Проверь, что ты не робот</h2>
+
+<form method="post">
+    <p>Реши пример: <b>{{ captcha }}</b></p>
+    <input type="text" name="captcha" placeholder="Ответ">
+    <button type="submit">Проверить</button>
+</form>
+
+<h3>{{ message }}</h3>
+
+</body>
+</html>
